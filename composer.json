@@ -1,0 +1,25 @@
+{
+    "name": "viviniko/theme",
+    "description": "VIVINIKO Theme Service Provider",
+	"keywords": ["viviniko", "theme", "laravel"],
+	"homepage": "http://viviniko.com",
+	"license": "MIT",
+	"authors": [
+        {
+            "name": "viviniko",
+            "email": "viviniko.shop@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "illuminate/support": "~5.0",
+        "viviniko/agent": "dev-master"
+    },
+	"autoload": {
+        "psr-0": {
+            "Viviniko\\Theme": "src"
+        }
+    },
+    "minimum-stability": "dev",
+	"prefer-stable": true
+}
